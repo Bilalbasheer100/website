@@ -534,3 +534,66 @@ ul.cb-slideshow h4{
 }
 .nav-pills .active { background-color: #E96840; color:#FFF; }
 .contact-msg { line-height:1.6em; margin-bottom:20px;}
+* {
+    box-sizing:border-box;
+    padding:0
+   }
+   
+   .title {
+    color:#fff;
+    font-size:1.5rem;
+    font-weight:500;
+    line-height:2rem;
+    margin-bottom:1.25rem
+   }
+   
+   .team-slider {
+    display:flex;
+    overflow-x:scroll;
+    padding:.5rem;
+    width:100%
+   }
+   .card {
+    align-items:center;
+    border:1px solid #fff;
+    border-radius:8px;
+    color:#fff;
+    cursor:pointer;
+    display:flex;
+    flex-basis:200px;
+    flex-direction:column;
+    flex-grow:0;
+    flex-shrink:0;
+    height:200px;
+    justify-content:center;
+    margin-bottom:.5rem;
+    transition:-webkit-transform .1s linear;
+    transition:transform .1s linear;
+    transition:transform .1s linear,-webkit-transform .1s linear
+   }
+   .card:not(:last-child) {
+    margin-right:2rem
+   }
+   .card:hover {
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05)
+   }
+   .avatar {
+    border-radius:100%;
+    box-shadow:1px 1px 10px hsla(0,0%,100%,.3);
+    height:50px;
+    margin-bottom:2rem;
+    overflow:hidden;
+    width:50px
+   }
+   p.name {
+    font-size:.875rem;
+    margin-bottom:.25rem
+   }
+   p.role {
+    color:#cbcbcb
+   }
+   .contact-link {
+    text-transform:none
+   }
+   
